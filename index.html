@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1020" />
+    <meta name="description" content="郑舒岩的个人主页：多模态大模型、LLM Alignment、数据与评测。" />
+    <title>郑舒岩 · Multimodal AI Researcher</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header" data-header>
+        <a class="brand" href="#about" aria-label="返回首页">
+          <span class="brand-mark">ZY</span>
+          <span class="brand-name">shuyan-zheng</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+          <span class="sr-only">打开导航</span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="主导航">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#writing">Writing</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-github" href="#contact">GitHub ↗</a>
+        </nav>
+      </header>
+
+      <main>
+        <section id="about" class="hero section-shell" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Multimodal AI · Alignment · Evaluation</p>
+            <h1 id="hero-title">把模型能力，<br /><span>变成可验证的系统。</span></h1>
+            <p class="hero-lede">我是郑舒岩，专注于多模态大模型、LLM Alignment 与数据和评测体系。现在在华东师范大学攻读大数据技术与工程硕士，也在 SenseTime 参与模型研究与落地。</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">查看精选项目 <span>↓</span></a>
+              <a class="button button-ghost" href="#contact">联系我 <span>↗</span></a>
+            </div>
+            <div class="hero-meta" aria-label="个人信息">
+              <span><i class="meta-icon">⌁</i> Shanghai · China</span>
+              <span><i class="status-dot"></i> Open to conversations</span>
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="个人概览">
+            <div class="panel-topline">
+              <span class="mono-label">/ profile.json</span>
+              <span class="panel-status"><i class="status-dot"></i> online</span>
+            </div>
+            <div class="profile-card">
+              <div class="avatar avatar-large">ZY</div>
+              <div>
+                <p class="profile-name">郑舒岩</p>
+                <p class="profile-role">Multimodal AI Researcher</p>
+              </div>
+            </div>
+            <div class="profile-lines">
+              <div><span>focus</span><strong>LLM Alignment</strong></div>
+              <div><span>research</span><strong>EduRec · VLM</strong></div>
+              <div><span>stack</span><strong>Python · PyTorch</strong></div>
+            </div>
+            <div class="affiliations" aria-label="教育与工作单位">
+              <a href="https://www.ecnu.edu.cn/" target="_blank" rel="noreferrer"><img src="assets/ecnu-logo.svg" alt="华东师范大学" /></a>
+              <span class="affiliation-rule" aria-hidden="true"></span>
+              <a class="sensetime-affiliation" href="https://www.sensetime.com/" target="_blank" rel="noreferrer" aria-label="商汤科技 SenseTime"><img class="sensetime-logo-red" src="assets/sensetime-logo-red.png" alt="商汤科技 SenseTime" /></a>
+            </div>
+            <div class="mini-contributions" aria-label="GitHub 风格贡献概览">
+              <div class="contribution-head"><span>contributions</span><strong>last 12 months</strong></div>
+              <div class="contribution-grid" data-contribution-grid></div>
+              <div class="contribution-foot"><span>Less</span><span class="legend"><i></i><i></i><i></i><i></i><i></i></span><span>More</span></div>
+            </div>
+          </aside>
+        </section>
+
+        <section id="projects" class="section-shell section-block" aria-labelledby="projects-title">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">01 / selected work</p>
+              <h2 id="projects-title">把研究推进到真实任务里</h2>
+            </div>
+            <p class="section-note">从视觉生成与编辑，到教育推荐和数据系统。</p>
+          </div>
+          <div class="project-grid" data-projects></div>
+        </section>
+
+        <section id="experience" class="section-shell section-block split-section" aria-labelledby="experience-title">
+          <div class="section-heading compact-heading">
+            <p class="section-kicker">02 / path</p>
+            <h2 id="experience-title">经历与研究</h2>
+          </div>
+          <div class="timeline" data-timeline></div>
+        </section>
+
+        <section id="writing" class="section-shell section-block writing-section" aria-labelledby="writing-title">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">03 / writing & results</p>
+              <h2 id="writing-title">论文、系统与实验</h2>
+            </div>
+            <p class="section-note">公开成果会持续补充到这里。</p>
+          </div>
+          <div class="writing-layout">
+            <div class="paper-list" data-papers></div>
+            <div class="skills-card">
+              <div class="skills-card-top"><span class="mono-label">toolkit.txt</span><span class="file-dot"></span></div>
+              <div class="skill-groups" data-skills></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section-shell section-block contact-section" aria-labelledby="contact-title">
+          <div class="contact-copy">
+            <p class="section-kicker">04 / say hello</p>
+            <h2 id="contact-title">一起聊聊模型、<br /><span>数据和下一步。</span></h2>
+            <p>如果你正在做多模态模型、教育智能或评测系统，欢迎通过邮件联系我。</p>
+          </div>
+          <div class="contact-links" data-contacts></div>
+        </section>
+      </main>
+
+      <footer class="site-footer section-shell">
+        <span>© <span data-year></span> Zheng Shuyan</span>
+        <span class="footer-note">Built with curiosity &amp; careful evaluation.</span>
+        <a href="#about">Back to top ↑</a>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
