@@ -1,26 +1,7 @@
 # Zheng Shuyan · Personal Homepage
 
-A dependency-free personal homepage for GitHub Pages.
+郑舒岩的个人学术主页，关注多模态大模型、LLM Alignment、教育智能与可验证的生成和推荐系统。
 
-## Local preview
+主页：[shane-luchi.github.io](https://shane-luchi.github.io/)
 
-```bash
-python3 -m http.server 4173
-```
-
-Open `http://localhost:4173` in a browser. The page uses only `index.html`, `styles.css`, and `script.js`.
-
-## Replace personal links
-
-Edit the `profile.contacts` list in `script.js` to add the personal GitHub and LinkedIn URLs. The first version intentionally leaves those two links as clearly marked placeholders until the real accounts are confirmed.
-
-## GitHub Pages
-
-The repository can be deployed as a static site with the workflow at `.github/workflows/pages.yml`. Set the repository's Pages source to GitHub Actions, then push to the default branch.
-
-## Brand assets
-
-The homepage uses locally stored monochrome versions of the official East China Normal University mark and SenseTime logo, sourced from their official websites:
-
-- https://www.ecnu.edu.cn/wzcd/xxgk/xxbs.htm
-- https://www.sensetime.com/en
+这里整理了我的研究项目、论文成果、工作经历与联系方式。

@@ -54,7 +54,7 @@ const profile = {
   ],
   contacts: [
     { label: 'Email', value: 'shuyanzheng2001@gmail.com', href: 'mailto:shuyanzheng2001@gmail.com' },
-    { label: 'GitHub', value: '待补充个人主页地址', href: '#', placeholder: true },
+    { label: 'Homepage', value: 'shane-luchi.github.io', href: 'https://shane-luchi.github.io/' },
     { label: 'LinkedIn', value: '待补充', href: '#', placeholder: true }
   ]
 };
